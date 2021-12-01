@@ -8,13 +8,13 @@
 		<version>2.6.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>br.com.generation</groupId>
-	<artifactId>blogpessoal</artifactId>
+	<groupId>generation.org</groupId>
+	<artifactId>myblogpessoal</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>blogpessoal</name>
+	<name>myblogpessoal</name>
 	<description>Blog Pessoal</description>
 	<properties>
-		<java.version>16</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>

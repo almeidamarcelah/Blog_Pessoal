@@ -1,13 +1,13 @@
-package br.com.generation.blogpessoal;
+package generation.org.myblogpessoal;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BlogpessoalApplication {
+public class MyblogpessoalApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BlogpessoalApplication.class, args);
+		SpringApplication.run(MyblogpessoalApplication.class, args);
 	}
 
 }

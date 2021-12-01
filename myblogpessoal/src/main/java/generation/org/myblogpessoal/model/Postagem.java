@@ -1,4 +1,4 @@
-package br.com.generation.blogpessoal.model;
+package generation.org.myblogpessoal.model;
 
 import java.time.LocalDate;
 
@@ -13,12 +13,12 @@ import javax.validation.constraints.Size;
 
 import org.hibernate.annotations.UpdateTimestamp;
 
-@Entity //create table
-@Table(name = "tb_postagens") //tb_postagens(
+@Entity
+@Table(name = "tb_postagens")
 public class Postagem {
 	
-	@Id //primary Key
-	@GeneratedValue(strategy = GenerationType.IDENTITY) //auto_increment
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
 	
 	@NotBlank(message = "O texto é obrigatorio")
@@ -31,29 +31,35 @@ public class Postagem {
 	
 	@UpdateTimestamp
 	private LocalDate data;
-	
-	
+
 	public long getId() {
 		return id;
 	}
+
 	public void setId(long id) {
 		this.id = id;
 	}
+
 	public String getTitulo() {
 		return titulo;
 	}
+
 	public void setTitulo(String titulo) {
 		this.titulo = titulo;
 	}
+
 	public String getTexto() {
 		return texto;
 	}
+
 	public void setTexto(String texto) {
 		this.texto = texto;
 	}
+
 	public LocalDate getData() {
 		return data;
 	}
+
 	public void setData(LocalDate data) {
 		this.data = data;
 	}

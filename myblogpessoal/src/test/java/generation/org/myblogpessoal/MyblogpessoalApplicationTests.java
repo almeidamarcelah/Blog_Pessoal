@@ -1,10 +1,10 @@
-package br.com.bsmgeneration.blogpessoal;
+package generation.org.myblogpessoal;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BlogpessoalApplicationTests {
+class MyblogpessoalApplicationTests {
 
 	@Test
 	void contextLoads() {
